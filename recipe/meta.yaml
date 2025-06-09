@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/huracanpy-{{ version }}.tar.gz
-  sha256: 2dee6ddcdc1c038d59c21e98235901442c813ca0d23680b443ace2874b0ee7a7
+  sha256: d115218b7ce40d01c8e4d80cdb3a72a822746b8ca40c411d87da04cb5ff3abb5
 
 build:
   noarch: python
