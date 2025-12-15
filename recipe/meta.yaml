@@ -1,5 +1,5 @@
 {% set name = "huracanpy" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/huracanpy-{{ version }}.tar.gz
-  sha256: d115218b7ce40d01c8e4d80cdb3a72a822746b8ca40c411d87da04cb5ff3abb5
+  sha256: 2cbb27ca11a5fc8469b513e9f953002c92f6f763c4df34bcb01e0bcde86fbd8b
 
 build:
   noarch: python
