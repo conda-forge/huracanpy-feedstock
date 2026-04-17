@@ -26,7 +26,7 @@ requirements:
     - cftime
     - parse
     - shapely
-    - pandas<3
+    - pandas <3
     - geopandas >=0.14.4
     - matplotlib-base
     - seaborn
