@@ -26,7 +26,7 @@ requirements:
     - cftime
     - parse
     - shapely
-    - pandas
+    - pandas<3
     - geopandas >=0.14.4
     - matplotlib-base
     - seaborn
@@ -38,6 +38,8 @@ requirements:
     - tqdm
     - pyarrow
     - pyproj
+    - scikit-learn
+    - nvector
 
 test:
   imports:
