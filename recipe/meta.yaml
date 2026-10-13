@@ -1,13 +1,13 @@
 {% set name = "huracanpy" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/huracanpy-{{ version }}.tar.gz
-  sha256: af9ca7198802153a29a51b6478a8191588daa473703f5330aa441f98b51bf73e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/huracanpy-{{ version }}.tar.gz
+  sha256: 6a13c2b4908eb87fc76c151a2eae7f83095ef70f32ccef1e3f3fa9c3ccbfab99
 
 build:
   noarch: python
