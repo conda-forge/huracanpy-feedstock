@@ -21,25 +21,28 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - numpy
-    - xarray
-    - cftime
-    - parse
-    - shapely
-    - pandas <3
-    - geopandas >=0.14.4
-    - matplotlib-base
-    - seaborn
-    - netcdf4
-    - haversine
     - cartopy
+    - cftime
+    - python-dateutil
+    - geopandas >=0.14.4
+    - haversine
+    - matplotlib-base
     - matplotlib-venn <1
     - metpy
-    - tqdm
+    - netcdf4
+    - numpy
+    - nvector
+    - pandas
+    - parse
+    - pint <0.26
     - pyarrow
     - pyproj
     - scikit-learn
-    - nvector
+    - scipy
+    - seaborn
+    - shapely
+    - tqdm
+    - xarray
 
 test:
   imports:
